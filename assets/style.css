@@ -44,17 +44,12 @@ body {
         font-size: 1.5rem;
     }
     
-    button {
+    a {
         text-decoration: none;
-        color: var(--desaturated-blue); 
-        background-color: transparent;
-        outline: none;
-        border: none;
-        font-size: 1.8rem;
-        cursor: pointer;
+        color: var(--desaturated-blue);
     }
 
-    .active, button:hover {
+    a:hover {
         color: #FFFFFf;
     }
     
@@ -102,6 +97,7 @@ body {
     --lime-green-exercise: hsl(145, 58%, 55%);
     --violet-social: hsl(264, 64%, 52%);
     --soft-orange: hsl(43, 84%, 65%);
+
     /* Neutral */
 
     --very-dark-blue: hsl(226, 43%, 10%);
@@ -182,8 +178,7 @@ body {
 }
 
 .hours-text {
-    /*  */
-    display: none; 
+    display: flex;
     justify-content: space-between;
     align-items: center;
 }
@@ -213,20 +208,6 @@ body {
     background-image: url('assets/images/icon-self-care.svg');
 }
 
-/* Show daily, weekly, monthly info */
-
-.daily {
-    display: none;
-}
-
-.weekly {
-    display: flex;
-}
-
-.monthly {
-    display: none;
-}
-
 
 
 /* Desktop: 1440px */
@@ -237,53 +218,10 @@ body {
             font-size: 4.0rem;
         }
     }
-
-    .card .current-hrs {
-        font-size: 5.6rem;
-    }
-
-    .wrapper-body {
-        grid-template-columns: 1fr 1fr 1fr 1fr;
-        padding: 253px 165px;
-    }
-
-    .cards-background {
-        grid-row: 1 / span 2;
-    }
-
-    .hero-avatar {
-        gap: 43px;
-        flex-direction: column;
-        align-items: flex-start;
     
-        img {
-            width: 78px;
-            height: 78px;
+    .cards {
+        .current-hrs {
+            font-size: 5.6rem;
         }
     }
-
-    .navigation ul {
-        flex-direction: column;
-        padding: 32px;
-        gap: 20px;
-    }
-
-    .card {
-        display: flex;
-    }
-
-    .cards-background  {
-        width: 100%;
-    }
-
-    .hours-text  {
-        flex-direction: column;
-        align-items: flex-start;
-    }
-
-    .cards-background.text-output:hover {
-        background-color: var(--desaturated-blue);
-        cursor: pointer;
-    }
-
 }
