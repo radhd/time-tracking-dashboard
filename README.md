@@ -26,8 +26,8 @@ Users should be able to:
 
 ### Screenshot
 
-![PC Screenshot](./Screenshot%202024-04-28%20101012%20PC.png)
-![Mobile Screenshot](./Screenshot%202024-04-28%20100858%20Mobile.png)
+![PC Screenshot](/assets/Screenshot%202024-04-28%20101012%20PC.png)
+![Mobile Screenshot](/assets/Screenshot%202024-04-28%20100858%20Mobile.png)
 
 A screenshots of my solution.
 
