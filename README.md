@@ -35,7 +35,7 @@ One screenshot is for the desktop version, the second one is for the mobile.
 
 ### Links
 
-- Live Site URL: [Add live site URL here](https://radhd.github.io/time-tracking-dashboard/)
+- Live Site URL: [Live site URL here](https://radhd.github.io/time-tracking-dashboard/)
 
 ## My process
 
